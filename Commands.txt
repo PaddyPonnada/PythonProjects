@@ -1,0 +1,12 @@
+Git commands:
+login --> c:\program files\git\bin\sh.exe --login
+version -->  git --version
+initialize repository --> git init
+configure user name --> git config --global user.name 'Paddy Ponnada'
+configure user email --> git config --global user.email 'paddyponnada@gmail.com'
+add file --> git add PythonBasics.ipynb
+file status --> git status
+remove file --> git rm --cached PythonBasics.ipynb
+commit files --> git commit & add comments for the current commit
+
+                         
