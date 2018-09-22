@@ -32,3 +32,8 @@ switch to new branch --> git checkout login
 list remote repositories --> git remote
 add remote repositories --> git remote add origin https://github.com/PaddyPonnada/PythonProjects.git
 push local repository to remote/GitHub --> git push -u origin master {got to login w/ uid & pwd}
+push local files to remote repository --> git push
+
+clone the repository --> git clone
+
+pull the changes --> git pull
