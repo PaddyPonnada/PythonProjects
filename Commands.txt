@@ -7,7 +7,8 @@ configure user email --> git config --global user.email 'paddyponnada@gmail.com'
 add file --> git add PythonBasics.ipynb
 file status --> git status
 remove file --> git rm --cached PythonBasics.ipynb
+remove all files recursively --> git rm -r --cached .metadata
 commit files --> git commit & add comments for the current commit
                      --> git commit -m 'comments here'
-
+touch .gitignore --> add files that need be ignored into this file
                          
