@@ -24,3 +24,11 @@ create new git branch -->git branch login
 # make sure that all the changes are committed to master using 'git commit -m ''' and git status 
 # before switching to new branch "login"
 switch to new branch --> git checkout login
+#mere 'login' changes to master 
+   switch to master branch using --> git checkout master
+   merge changes from login to master --> git merge login
+
+# working with GitHub
+list remote repositories --> git remote
+add remote repositories --> git remote add origin https://github.com/PaddyPonnada/PythonProjects.git
+push local repository to remote/GitHub --> git push -u origin master {got to login w/ uid & pwd}
