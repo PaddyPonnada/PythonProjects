@@ -1,9 +1,16 @@
 Git commands:
-login --> c:\program files\git\bin\sh.exe --login
-version -->  git --version
+
+# 
+login to git --> c:\program files\git\bin\sh.exe --login
+find git version -->  git --version
 initialize repository --> git init
 configure user name --> git config --global user.name 'Paddy Ponnada'
 configure user email --> git config --global user.email 'paddyponnada@gmail.com'
+
+# create files, and add files to git staging before committing to master 
+#  <working> 	--> <staging> 	--> <master>
+#  update files 	     git add/rm 	    commit
+
 add file --> git add PythonBasics.ipynb
 file status --> git status
 remove file --> git rm --cached PythonBasics.ipynb
@@ -11,4 +18,9 @@ remove all files recursively --> git rm -r --cached .metadata
 commit files --> git commit & add comments for the current commit
                      --> git commit -m 'comments here'
 touch .gitignore --> add files that need be ignored into this file
-                         
+
+
+create new git branch -->git branch login
+# make sure that all the changes are committed to master using 'git commit -m ''' and git status 
+# before switching to new branch "login"
+switch to new branch --> git checkout login
