@@ -8,5 +8,6 @@ add file --> git add PythonBasics.ipynb
 file status --> git status
 remove file --> git rm --cached PythonBasics.ipynb
 commit files --> git commit & add comments for the current commit
+                     --> git commit -m 'comments here'
 
                          
